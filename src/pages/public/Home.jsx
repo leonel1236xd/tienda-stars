@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <p className="hero-tagline">"Viste con carácter. El estilo y el ajuste perfecto marcan tu camino."</p>
         </div>
-        <div className="scroll-indicator"><span>Explorar Catálogo</span><div className="chevron"></div></div>
+        <a href="#catalogo" className="scroll-indicator"><span>Explorar Catálogo</span><div className="chevron"></div></a>
       </section>
 
       <Catalog />
